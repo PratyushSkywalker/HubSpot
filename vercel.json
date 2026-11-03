@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/countdown.py": { "includeFiles": "api/**", "maxDuration": 15 }
+  },
+  "rewrites": [
+    { "source": "/countdown.gif", "destination": "/api/countdown" }
+  ]
+}
